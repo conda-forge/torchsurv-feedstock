@@ -1,13 +1,13 @@
 {% set name = "torchsurv" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7a7487ea8296ca02744b4e975e70882ce9c70e6bad14649379dd3aa787cbeaf
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 564445364b79e8911d6c8aa46d30c94e1c2c4c0230d42fb1e993edbbb48f4729
 
 build:
   noarch: python
